@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+html,body{
+    height:100%;
+
+}
+
+body{
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(8,22,133,1) 100%);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar{
+    width: 80px;
+    border-radius: 20%;
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 3px;
+    box-shadow: 0 0 20px #ffffff;
+
+}
+
+h1{
+    font-size: 24px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100px;
+    margin-bottom: 2px;
+}
+
+h2{
+    font-size: 16px;
+
+}
+
+.profile{
+    margin-top: 20px; 
+    text-align: center;
+
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0; 
+
+}
+
+.social img{
+    width: 33px;
+}
+
+.links-list{
+    list-style: none;
+}
+
+.links-list li{
+    margin: 10px 20px;
+}
+
+.links-list li a{
+    background-color: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 4px;
+    text-decoration: none;
+    color:rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span{
+    color:grey;
+    display: block;
+    margin-top: 5px;
+}
+
+.links-list-2{
+    list-style: none;
+}
+
+.links-list-2 li{
+    margin: 10px 20px;
+}
+
+.links-list-2 li a{
+    background-color: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 4px;
+    text-decoration: none;
+    color:rgb(54,77,204);
+    font-weight: bold;
+
+}
+
+.links-list-2 li a span{
+    color:grey;
+    display: block;
+    margin-top: 5px;
+}
+
+.space-list{
+    margin-top: 50px
+}
